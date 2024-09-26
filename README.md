@@ -1,10 +1,10 @@
 ![GSSoC Logo Light](https://user-images.githubusercontent.com/63473496/213306239-9e8fc317-ce2f-4127-8bfe-17f5df06ee99.png#gh-light-mode-only)
 ![GSSoC Logo Dark](https://user-images.githubusercontent.com/63473496/213306279-338f7ce9-9a9f-4427-8c2a-3e344874498f.png#gh-dark-mode-only)
 
-# Official website repository for the GirlScript Summer of Code 2023 (GSSoC'23)
+# Official website repository for the GirlScript Summer of Code 2024 (GSSoC'24)
 
 GirlScript Summer Of Code is a three-month-long Open-Source Program conducted every summer by the Girlscript Foundation.  
-With constant efforts, participants contribute to numerous projects under the extreme guidance of skilled mentors over these months. With such exposure, students begin to contribute to real-world projects from the comfort of their homes. GirlScript Summer Of Code has witnessed active participation over the years, and the 2023 edition aims to carry the legacy with a promising impact.
+With constant efforts, participants contribute to numerous projects under the extreme guidance of skilled mentors over these months. With such exposure, students begin to contribute to real-world projects from the comfort of their homes. GirlScript Summer Of Code has witnessed active participation over the years, and the 2024 edition aims to carry the legacy with a promising impact.
   
 ---
 - This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).  
@@ -16,7 +16,7 @@ With constant efforts, participants contribute to numerous projects under the ex
 [gssoc-website.webm](https://user-images.githubusercontent.com/63473496/213291499-67c96070-0a8a-4fd7-986d-e72b226a6be6.webm)
 
 ## Setting Up the Development Environment
-First, install the node modules & dependencies:
+First, install the node modules & dependencies:  
 
 ```bash
 npm i
@@ -71,13 +71,17 @@ The website was designed to support both light and dark themes. It reads the cur
 ### Light Mode  
 
 <details> <summary>Toggle me to Preview!</summary>
+  
 ![image](https://user-images.githubusercontent.com/83456083/236680082-9182439e-633a-4269-a5bb-9720c87a57b2.png) 
+  
 </details>
 
 ### Dark Mode  
 
 <details> <summary>Toggle me to Preview!</summary>
+  
 ![image](https://user-images.githubusercontent.com/83456083/236680214-b1f29e4a-bf08-496e-bbb3-8776c9f1c8cf.png)
+  
 </details>
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!

@@ -1,74 +1,98 @@
 const items = [
   {
-    title: "19th February 2022",
+    title: "5th May 2024",
     poster:
-      "https://user-images.githubusercontent.com/63473496/159970986-f0fceac6-f866-4a5e-89d5-0f86cbe206d2.png",
-    maintitle: "Conversation with Mr. Santosh Yadav",
-    rec_link: "https://twitter.com/i/spaces/1YqGopXoyNaJv?s=20",
-    info: "We were joined by GitHub Star Mr. Santosh Yadav through Twitter Spaces as we dived into the conversations about open-source. Further we also conducted a QnA session for all the attendees regarding his journey in tech and the forthcoming GirlScript Summer of Code’22.",
-    medium: "Twitter",
-    fmt:"image",
-  },
-  {
-    title: "26th February 2022",
-    poster:
-      "https://user-images.githubusercontent.com/63473496/159972222-ecdae971-0c0f-48ca-a9a3-4f1d77ff26c6.png",
-    maintitle: "Open-Source Projects for GSSoC’22",
-    rec_link: "https://twitter.com/i/spaces/1ZkKzbnLpQDKv?s=20",
-    info: "An awesome Twitter Space was hosted by GSSoC’22 where we revealed some crazy interesting insights of the projects associated with GSSoC'22. The attendees got a chance to hear from project admins and get better understanding about their projects.",
-    medium: "Twitter",
-    fmt:"image",
-  },
-  {
-    title: "1st March 2022",
-    poster:
-      "https://www.youtube-nocookie.com/embed/kNcNKH1kCIM",
-    maintitle: `Opening Ceremony of GSSoC’22`,
-    rec_link: "https://youtu.be/kNcNKH1kCIM",
-    info: "GSSoC’22 started with a band as we conducted our opening ceremony. We had an insightful session with our Guest Speakers: Ms. Manaswini Das, Software Engineer at RedHat and Ms. Anubha Maneshwar, Founder of GirlScript Foundation.",
+      "https://www.youtube.com/embed/A7PchMiBeN4",
+    maintitle: "Conversation with Yati Padia",
+    rec_link: "https://www.youtube.com/live/A7PchMiBeN4?si=EXJh3N80y3q1Zqfr",
+    info: "We were joined by Yati Padia as we dived into the conversations about open-source.",
     medium: "Youtube",
     fmt:"video",
   },
   {
-    title: "5th Match 2022",
+    title: "9th May 2024",
     poster:
-      "https://www.youtube.com/embed/AH3fLqHly_Q",
-    maintitle: "Community Bonding Session - Git & GitHub",
-    rec_link: "https://www.youtube.com/embed/AH3fLqHly_Q",
-    info: "GSSoC’22 hosted the Community Bonding Session to introduce open-source to beginners. We were privileged to host a beginner-friendly workshop on Git and GitHub under the guidance of Mr. Praveen Kumar and Mr. Rohan Kulkarni.",
+      "https://www.youtube.com/embed/tMo1cgssjPQ",
+    maintitle: "From Contributon to connection",
+    rec_link: "https://www.youtube.com/live/tMo1cgssjPQ?si=iBYW_5tcPuZG3PDS",
+    info: "Dive into his journey from internships at LinkedIn to mentoring 1000+ students. Ranked top 1.0% in India's competitive programming scene, Abhinav's insights are gold! ",
     medium: "Youtube",
     fmt:"video",
   },
   {
-    title: "8th March 2022",
+    title: "10th May 2024",
     poster:
-      "https://user-images.githubusercontent.com/63473496/159974181-62292881-6bf9-4903-b630-6688786f6312.png",
-    maintitle: "Women’s Day Celebration at GSSoC’22",
-    rec_link: "https://twitter.com/i/spaces/1mnxedWlajbJX?s=20",
-    info: "To celebrate International Women’s Day, GSSoC’22 hosted a twitter space to have a conversation with Women In Tech. The speakers, Jahnavi Shah, Program Manager at GSSoC’21, Sujata, Lead Developer at JavaScript Mastery, and Ms. Mahak Makharia, Designer and Developer graced the occasion as they shared their experiences, and spoke about the peaks and valleys they have faced throughout their journey.",
-    medium: "Twitter",
-    fmt:"image",
-  },
-  {
-    title: "5th Match 2022",
-    poster:
-      "https://www.youtube.com/embed/yC_m_VOZ3Ow",
-    maintitle: "Community Bonding Session - Intro To BlockChain",
-    rec_link: "https://www.youtube.com/embed/yC_m_VOZ3Ow",
-    info: "Open Source has enhanced the technology growth speed exponentially. Currently one of the fastest-growing industries is BLOCKCHAIN. Bitcoin, Ethereum, NFT, To the moon ? Don\'t feel the FOMO of not knowing about it? We got you covered. Join us at GirlScript Summer of Code 2022 in a beginner-friendly session on Introduction to Blockchain with some experienced Blockchain Developers. Let\'s deep dive together, shall we? Speakers: Anmol Arora & Yash Garg",
+      "https://www.youtube.com/embed/Y9PYaPZgikg",
+    maintitle: `How to Contribute to Gssoc 2024`,
+    rec_link: "https://youtu.be/Y9PYaPZgikg?si=kLtoz4cVadJWkJ4l",
+    info: "Celebrate your contribution and consider contributing to more projects! 🎉.",
     medium: "Youtube",
     fmt:"video",
   },
   {
-    title: "5th Match 2022",
+    title: "16th May 2024",
     poster:
-      "https://www.youtube.com/embed/cxWnls_HmP4",
-    maintitle: "How to Develop Games on Blockchain? presented by Moralis",
-    rec_link: "https://www.youtube.com/embed/cxWnls_HmP4",
-    info: "The buzzwords for the 21st century Blockchain, NFTs, Defi and what not. Blockchain Games are the next big thing in the Gaming sector. But how does one build one? Well that's what we have set up. A Hands-on coding experience where you will be able to code a complete blockchain game with Moralis and add it under your Projects Portfolio on Github. ",
+      "https://www.youtube.com/embed/wtwVsHCsQSU",
+    maintitle: `Build User Centric Project: Live Session by Daksh Jain`,
+    rec_link: "https://www.youtube.com/live/wtwVsHCsQSU?si=tRLn7OFHi5346NhX",
+    info: "🔓 Unlock the Secrets to Building Projects People Love! 🚀",
     medium: "Youtube",
     fmt:"video",
   },
+
+  {
+    title: "16th May 2024",
+    poster:
+      "https://www.youtube.com/embed/d2JLd2mhSfk",
+    maintitle: `Live Q&A with Program Managers | GSSOC'24`,
+    rec_link: "https://www.youtube.com/watch?v=d2JLd2mhSfk",
+    info: "Becoming a Top Contributor in GSSoC '24: Live Q&A Session 🚀",
+    medium: "Youtube",
+    fmt:"video",
+  },
+
+  {
+    title: "31th May 2024",
+    poster:
+      "https://www.youtube.com/embed/7ANB2t_RQPg",
+    maintitle: `Leveraging Open Source with AWS by Dipali Kulshrestha`,
+    rec_link: "https://www.youtube.com/live/7ANB2t_RQPg?si=NKWU0u5tbSSR8S0T",
+    info: "Leveraging Open Source with AWS: Empowering Innovation and Scalability!🌐⚡",
+    medium: "Youtube",
+    fmt:"video",
+  },
+
+  {
+    title: "15th June 2024",
+    poster:
+      "https://www.youtube.com/embed/JJxPXCCRpck",
+    maintitle: `Hands-on workshop with Akansha Jain`,
+    rec_link: "https://www.youtube.com/live/JJxPXCCRpck?si=B_ETHMIZE-h4J9ke",
+    info: "Live Coding Session: Watch Akansha build an app from scratch! 🚀",
+    medium: "Youtube",
+    fmt:"video",
+  },
+  {
+    title: "15th June 2024",
+    poster:
+      "https://www.youtube.com/embed/1DP6WDTsL8s",
+    maintitle: `Live with Animesh Pathak Dev-Relations @Keploy`,
+    rec_link: "https://www.youtube.com/live/1DP6WDTsL8s?si=1xLyFjzJE8JJKn4x",
+    info: "Testing Microservices with Keploy and DevPod",
+    medium: "Youtube",
+    fmt:"video",
+  },
+  {
+    title: "15th July 2024",
+    poster:
+      "https://www.youtube.com/embed/uMrlAyniwzk",
+    maintitle: `Beyond Data - Emerging Trends in Cloud-Based Data Engineering`,
+    rec_link: "https://www.youtube.com/live/uMrlAyniwzk?si=HHP0IAxAesmX1VMl",
+    info: "Don't miss this opportunity to explore the future of data engineering and gain valuable insights from an industry expert.✨",
+    medium: "Youtube",
+    fmt:"video",
+  },
+  
 ];
 
 export default items;

@@ -1,6 +1,13 @@
+import { useRouter } from "next/router";
 import Link from "next/link";
 
 const Footer = () => {
+  const { pathname } = useRouter(); 
+
+  if (pathname === "/sponsor_us" || pathname ==="/registration") {
+    return null;
+  }
+
   return (
     <footer id="Contact">
       <div className="footer-2 bg-gradient-to-b from-[#FF8500] to-[#FF6701] pt-6 md:pt-8">
@@ -9,11 +16,12 @@ const Footer = () => {
             <div className="footer-info lg:w-1/3 md:px-4">
               {/* <h4 className="text-white text-2xl font-medium mb-4">
                 Made with ❤️ by GirlScript India
-  </h4>*/}
-              <Link href="https://girlscript.tech/">
+              </h4> */}
+              <Link href="https://gssoc.girlscript.tech/contact">
                 <img
                   className="cursor-pointer"
                   src="./GS_Foundation_logo_Black.svg"
+                  alt="logo"
                 />
               </Link>
             </div>
@@ -25,12 +33,11 @@ const Footer = () => {
                     ABOUT GSSOC
                   </h6>
                   <div>
-                    <a
-                      href="https://linktr.ee/GSSoC22"
-                      className="font-normal text-black py-1 block hover:underline"
-                    >
-                      Contact Us
-                    </a>
+                    <Link href="/contact">
+                      <span className="font-normal text-black py-1 hover:underline block cursor-pointer">
+                        Contact Us
+                      </span>
+                    </Link>
                     {/* <a
                       href="#"
                       className="font-normal text-black py-1 block hover:underline"
@@ -38,11 +45,9 @@ const Footer = () => {
                       Past Programs
                     </a> */}
                     <Link href="/codeofconduct">
-                    <a
-                      className="font-normal text-black py-1 block hover:underline"
-                    >
-                      Code of Conduct
-                    </a>
+                      <a className="font-normal text-black py-1 block hover:underline">
+                        Code of Conduct
+                      </a>
                     </Link>
                   </div>
                 </div>
@@ -64,7 +69,7 @@ const Footer = () => {
                       Uplift Project
                     </a>
                     <a
-                      href="https://summit.girlscript.tech/"
+                      href="https://www.linkedin.com/company/gssummit2021/?originalSubdomain=in"
                       className="font-normal text-black py-1 block hover:underline"
                     >
                       GirlScript India Summit
@@ -81,7 +86,7 @@ const Footer = () => {
                 help beginners in technology. Be a part, spread knowledge {"& "}
                 happiness.
               </h5>
-              <a href="https://www.girlscript.tech/home">
+              <a href="https://www.linkedin.com/company/girlscript-foundation/?originalSubdomain=in">
                 <button className="bg-black text-white hover:bg-slate-800 rounded py-2 px-4 md:px-12 transition-colors duration-300">
                   Explore
                 </button>
@@ -97,7 +102,7 @@ const Footer = () => {
                 <p className="text-black">
                   &copy;{" "}
                   <strong>
-                    2023 GirlScript Foundation. Made with 🖤️ by GirlScript
+                    2024 GirlScript Foundation. Made with 🖤️ by GirlScript
                     India. All rights reserved.
                   </strong>
                 </p>
@@ -123,4 +128,5 @@ const Footer = () => {
     </footer>
   );
 };
+
 export default Footer;
