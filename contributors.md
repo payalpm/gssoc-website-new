@@ -112,17 +112,17 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/sanjay-kv">
-            <img src="https://avatars.githubusercontent.com/u/30715153?v=4" width="100;" alt="sanjay-kv"/>
-            <br />
-            <sub><b>Sanjay Viswanathan</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/Meetjain1">
             <img src="https://avatars.githubusercontent.com/u/133582566?v=4" width="100;" alt="Meetjain1"/>
             <br />
             <sub><b>Meet Jain</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/sanjay-kv">
+            <img src="https://avatars.githubusercontent.com/u/30715153?v=4" width="100;" alt="sanjay-kv"/>
+            <br />
+            <sub><b>Sanjay Viswanathan</b></sub>
         </a>
     </td>
     <td align="center">
@@ -241,6 +241,13 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/vansh-codes-dev">
+            <img src="https://avatars.githubusercontent.com/u/183198621?v=4" width="100;" alt="vansh-codes-dev"/>
+            <br />
+            <sub><b>Vansh Chaurasiya</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Ayushmaanagarwal1211">
             <img src="https://avatars.githubusercontent.com/u/118350936?v=4" width="100;" alt="Ayushmaanagarwal1211"/>
             <br />
@@ -253,15 +260,15 @@
             <br />
             <sub><b>Abhinav Kumar</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/sau-mili">
             <img src="https://avatars.githubusercontent.com/u/146661411?v=4" width="100;" alt="sau-mili"/>
             <br />
             <sub><b>Sau-mili</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/BRAVO68WEB">
             <img src="https://avatars.githubusercontent.com/u/41448663?v=4" width="100;" alt="BRAVO68WEB"/>
@@ -288,13 +295,6 @@
             <img src="https://avatars.githubusercontent.com/u/80148777?v=4" width="100;" alt="vinayak-vohra"/>
             <br />
             <sub><b>Vinayak Vohra</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/vansh-codes-dev">
-            <img src="https://avatars.githubusercontent.com/u/183198621?v=4" width="100;" alt="vansh-codes-dev"/>
-            <br />
-            <sub><b>Vansh Chaurasiya</b></sub>
         </a>
     </td>
     <td align="center">
