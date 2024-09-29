@@ -213,7 +213,7 @@ export const modules = [
         title: "What is innersource program and opensource",
         url: "https://www.loom.com/embed/62a9154ebe6c4b6cb2a0ab3ecec8a0e9?sid=119f5eca-fea7-4e44-b1e5-0ee6a451a923",
         progress: 0,
-        description: "Step by step guide to create and setup GitHub Projects."
+        description: "Learn about innersource and opensource programs"
       },
     ],
     progress: 0,
@@ -228,14 +228,14 @@ export const modules = [
         title: "GitHub Security",
         url: "https://www.loom.com/embed/e1612d80428e4e1b99d86841af773212?sid=7c987e51-3fa4-4ac7-9e65-78b175029fb2",
         progress: 0,
-        description: "Step by step guide to create a custom GitHub Readme page."
+        description: "Understand and maintain GitHub Security"
       },
       {
         id: 25,
         title: "GitHub Administration",
         url: "https://www.loom.com/embed/a6fe5606eab34b9ba749d8c684ee15ca?sid=f26a2102-b89e-4f75-8738-172cb6ef736b",
         progress: 0,
-        description: "Step by step guide to create a custom GitHub Readme page."
+        description: "Learn about organization heirarchies and GitHub administration"
       },
     ],
     progress: 0,
@@ -250,7 +250,7 @@ export const modules = [
         title: "How to get back your GitHub suspended account",
         url: "https://www.loom.com/embed/417e844bb4544bb5bc337bec9114c9c4?sid=8a8548bc-8aa9-4dde-b7d5-56e0417bd3a1",
         progress: 0,
-        description: "Step by step guide to create a custom GitHub Readme page."
+        description: "Step by step guide to troubleshoot on account suspension"
       },
     ],
     progress: 0,

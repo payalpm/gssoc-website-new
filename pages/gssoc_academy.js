@@ -212,27 +212,30 @@ const GSSOCAcademy = () => {
                             p={[3, 4]}
                             mb={[4, 6]}
                         >
+                            {/* <Text mt={2} color={isDarkMode ? "#fff" : "1a202c"}></Text> */}
                             <Link
                                 href={`/gssoc_academy?moduleName=${module.moduleName}`}
                                 passHref
                             >
-                                <Heading size="md" cursor="pointer" color={isDarkMode ? "#fff" : "1a202c"}>
-                                    {module.moduleName}
-                                </Heading>
+                                <a href={`/gssoc_academy?moduleName=${module.moduleName}`}>
+                                    <Heading size="md" cursor="pointer" color={isDarkMode ? "#fff" : "1a202c"}>
+                                    Module {module.id}{": "}{module.moduleName}
+                                    </Heading>
+                                    <Progress
+                                        value={module.progress}
+                                        // value={Object.values(module[module.moduleName] || {}).reduce((a, b) => a + b, 0) /
+                                        // module.videos.length}
+                                        size="sm"
+                                        mt={2}
+                                        className="overflow-hidden rounded-full"
+                                        colorScheme="orange"
+                                        max={100}
+                                        min={0}
+                                        // aria-valuenow={module.progress}
+                                        />
+                                    <Text mt={2} color={isDarkMode ? "#fff" : "1a202c"}>{module.progressMessage}</Text>
+                                </a>
                             </Link>
-                            <Progress
-                                value={module.progress}
-                                // value={Object.values(module[module.moduleName] || {}).reduce((a, b) => a + b, 0) /
-                                // module.videos.length}
-                                size="sm"
-                                mt={2}
-                                className="overflow-hidden rounded-full"
-                                colorScheme="orange"
-                                max={100}
-                                min={0}
-                                // aria-valuenow={module.progress}
-                            />
-                            <Text mt={2} color={isDarkMode ? "#fff" : "1a202c"}>{module.progressMessage}</Text>
                         </Box>
                     ))}
                 </Box>
@@ -261,21 +264,25 @@ const GSSOCAcademy = () => {
                                     )}`}
                                     passHref
                                 >
-                                    <Heading size="md" cursor="pointer" color={isDarkMode ? "#fff" : "1a202c"}>
-                                        {video.title}
-                                    </Heading>
+                                    <a href={`/gssoc_academy?moduleName=${encodeURIComponent(
+                                        moduleName)}&video=${encodeURIComponent(video.title)}`}
+                                    >
+                                        <Heading size="md" cursor="pointer" color={isDarkMode ? "#fff" : "1a202c"}>
+                                            {video.title}
+                                        </Heading>
+                                        <Text mt={2} color={isDarkMode ? "#fff" : "1a202c"}>{video.description}</Text>
+                                        <Progress
+                                            value={video.progress}
+                                            size="sm"
+                                            mt={2}
+                                            className="overflow-hidden rounded-full"
+                                            colorScheme="orange"
+                                            max={100}
+                                            min={0}
+                                            // aria-valuenow={video.progress}
+                                        />
+                                    </a>
                                 </Link>
-                                <Text mt={2} color={isDarkMode ? "#fff" : "1a202c"}>{video.description}</Text>
-                                <Progress
-                                    value={video.progress}
-                                    size="sm"
-                                    mt={2}
-                                    className="overflow-hidden rounded-full"
-                                    colorScheme="orange"
-                                    max={100}
-                                    min={0}
-                                    // aria-valuenow={video.progress}
-                                />
                             </Box>
                         ))
                     ) : (
